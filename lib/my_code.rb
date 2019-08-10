@@ -32,17 +32,13 @@ def reduce_to_total(array, starting = 0)
 end
 
 def reduce_to_all_true(array)
-  solution = nil
-  index = 0
-    while index <= array.length  
-      if array[index] = false
-        solution = array[index]
-      end
-      if array[index] = true
-        solution = array[index]
-      end
-      index += 1
+  array.length.times { |index| 
+   if array[index]
+     solution = true
+   else 
+     solution = false
     end
+  }
   return solution
 end
 
