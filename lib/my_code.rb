@@ -32,6 +32,7 @@ def reduce_to_total(array, starting = 0)
 end
 
 def reduce_to_all_true(array)
+  solution = false
   array.length.times { |index| 
    if array[index]
      solution = true
