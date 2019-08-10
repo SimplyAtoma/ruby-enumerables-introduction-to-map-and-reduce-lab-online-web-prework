@@ -53,7 +53,7 @@ def reduce_to_any_true(array)
      solution = true
    else 
      solution = false
-    end
+  end
   }
   return solution
 end
